@@ -8,7 +8,7 @@ export function format(s: string, c: Context) {
   return s.replace(/{(\w+)}/g, (_: string, p: ContextTypes) => c[p]);
 }
 
-export const uri = "data:application/vnd.ms-excel;base64,";
+export const uri = "data:application/vnd.ms-excelapplication/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,";
 export const template =
   '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-mic' +
   'rosoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><meta cha' +
